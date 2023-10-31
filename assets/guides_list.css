@@ -1,0 +1,20 @@
+.home_guide
+{
+	display: inline-block;
+	margin-right: 20px;
+	margin-top: 20px;
+	width: 300px;
+	vertical-align: top;
+	padding: 20px;
+	border: 1px solid #aaaaaa;
+}
+
+.home_guide_metadata
+{
+	color: #636363;
+}
+
+.home_guide > p
+{
+	margin-top: 10px;
+}

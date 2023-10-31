@@ -1,0 +1,14 @@
+{% for new in include.news_list limit:include.news_limit %}
+{% if jekyll.environment == "development" or (jekyll.environment == "production" and (new.status == "published" or new.status == "beta")) %}
+	{% assign author = site.authors | where: "name", new.author | first %}
+    <div class="home_new">
+      <h2><a href="{{ new.url }}" class="text_link">{{ new.title }}</a></h2>
+      <span class="home_new_metadata">Publication date: </span>
+      <span>{{ new.date | date: "%Y-%m-%d" }}</span>
+      <div>
+        <span class="home_new_metadata">Authors: </span>
+		{% for page_author in new.authors %}{% assign new_author = site.news_authors | where: "name", page_author | first %}{% assign author = site.authors | where: "name", page_author | first %}<a href="{{ new_author.url }}" class="text_link">{{ author.publishing_name }}</a>{% if forloop.index != forloop.length %}<span>, </span>{% endif %}{% endfor %}
+      </div>
+    </div>
+{% endif %}
+{% endfor %}

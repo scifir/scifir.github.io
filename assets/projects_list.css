@@ -1,0 +1,22 @@
+.home_project
+{
+	display: inline-block;
+	margin-right: 20px;
+	margin-top: 20px;
+	width: 300px;
+	vertical-align: top;
+	padding: 20px;
+	border: 1px solid #aaaaaa;
+	text-align: center;
+}
+
+.home_project > h2
+{
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+
+.home_project > p
+{
+	text-align: left;
+}

@@ -1,0 +1,173 @@
+---
+layout: central_layout
+header: <link rel="stylesheet" href="/assets/index.css"><link rel="stylesheet" href="/assets/news_list.css"><link rel="stylesheet" href="/assets/articles_list.css"><link rel="stylesheet" href="/assets/projects_list.css"><link rel="stylesheet" href="/assets/guides_list.css">
+header_title: "Scifir"
+---
+
+<div id="home_presentation">
+	<img src="/assets/science-background.jpeg" alt="Background of science instruments and objects used at the laboratory" id="home_background">
+	<div>
+		<h1>Welcome!</h1>
+		<p>Scifir is a <strong>digital foundation</strong> committed to advance science. Its projects have as objective to improve <strong>independent research</strong>, to improve <strong>open science</strong> and to solve important scientific problems.
+		<br>
+		<br>
+		Scifir allows <strong>open participation</strong> to any scientist interested in advancing science to make a better future. <a href="/participate" class="text_link">How to participate</a>
+		</p>
+	</div>
+</div>
+<div id="home_under_construction_box">
+	<div id="home_under_construction">
+		<p>This website is under construction, it will be active under some months more. It's about science, that's, about creating a better future with scientific inventions.</p>
+	</div>
+</div>
+<div class="home_section">
+	<h2>News</h2>
+	{% include news_list.html news_list=site.news news_limit=8 %}
+	<div class="home_view_all_box"><a href="/news" class="home_view_all">View all news</a></div>
+</div>
+<div class="home_section">
+	<h2>Articles</h2>
+	{% include articles_list.html articles_list=site.posts articles_limit=8 %}
+	<div class="home_view_all_box"><a href="/articles" class="home_view_all">View all articles</a></div>
+</div>
+<div class="home_section">
+	<h2>Projects</h2>
+	<div class="home_project">
+		<h2>scifir-units</h2>
+		<p>C++ library that gives units of measurement, scalar and vectorial, like length and time, that replace the use of numeric values. It also gives coordinates, points, and a lot of special units, like percentage. <br><br><strong>Relatively essential</strong> for any serious scientific software.</p>
+		<br>
+		<a href="https://www.github.com/scifir/scifir-units" class="text_link">View repository</a>
+	</div>
+	<div class="home_project">
+		<h2>L3D file format</h2>
+		<p>"By gamers, for gamers", <strong>very lightweight</strong> 3D file format that allows to create 3D applications with a lower size on disk. Very flexible and easy to use, ideal for scientific software and videogames.</p>
+		<br>
+		<a href="https://www.github.com/scifir/l3d-file-format" class="text_link">View repository</a>
+	</div>
+	<div class="home_project">
+		<h2>DNA file format</h2>
+		<p>File format that allows to <strong>easily edit DNA</strong>, by knowing which gene is being edited. It also protects from modifications with a checksum.</p>
+		<br>
+		<a href="https://www.github.com/scifir/dna-file-format" class="text_link">View repository</a>
+	</div>
+	<div class="home_project">
+		<h2>CWD file format</h2>
+		<p>File format that allows to <strong>create new words</strong>, biwords and prefixes. Useful for defining new scientific concepts.</p>
+		<br>
+		<a href="https://www.github.com/scifir/cwd-file-format" class="text_link">View repository</a>
+	</div>
+	<div class="home_view_all_box"><a href="/projects" class="home_view_all">View all projects</a></div>
+	<p>All the projects of Scifir have <strong>open participation</strong>, which means that any scientist can join them.</p>
+</div>
+<div class="home_section">
+	<h2>Guides</h2>
+	{% include guides_list.html guides_list=site.guides guides_limit=8 %}
+	<div class="home_view_all_box"><a href="/guides" class="home_view_all">View all guides</a></div>
+</div>
+<div id="home_organization" class="home_section">
+	<h2>How is Scifir organized</h2>
+	<p>Scifir is organized in the following way, which can be imitated partially or completely in any other science organization:</p>
+	<div id="home_organization_box">
+	<ul id="home_organization_explanation">
+		<li><strong>News:</strong> Any important news about Scifir, can be about any project, member, or anything that has happened.</li>
+		<li><strong>Projects:</strong> The scientific projects we are developing. All projects inside Scifir have <strong>open participation</strong>, and any scientist can join or make comments. Each project has its own website, which can be the GitHub repository or a complete website.</li>
+		<li><strong>Articles:</strong> Articles about science. They are publications of science concepts, theories, formulas, experiments and inventions, but they have a text format different than common papers, so they are called inside Scifir articles.</li>
+		<li><strong>Guides:</strong> Learning material of science, usually summarized, which is better to read previous to the lecture of an entire book.</li>
+	</ul>
+	<img src="/assets/science-icons.png" alt="Icons of science" id="home_organization_picture">
+	</div>
+	<p>Scifir is a <strong>digital foundation</strong>, which is how has been named here the foundations that are not pertaining to any country or form of legislation.</p>
+</div>
+<div id="home_open_science" class="home_section">
+	<h2>Open science</h2>
+	<img src="/assets/open-science-logo.png" alt="Logo of Open Science v3" id="home_open_science_logo">
+	<div id="home_open_science_text">
+		<p><strong>Open science</strong> is an initiative that aims to make science open, like open source, and then accessible for anyone. <strong>Scifir follows open science</strong>, and all his scientific projects are open. Members are not mandated to make all their projects open, but the projects added to Scifir must be open in order to be accepted.</p>
+		<br>
+		<p>Open science has the following <strong>six principles</strong>:</p>
+		<ul>
+			<li>Open methodology.</li>
+			<li>Open source.</li>
+			<li>Open data.</li>
+			<li>Open access.</li>
+			<li>Open peer review.</li>
+			<li>Open educational resources.</li>
+		</ul>
+		<a href="/open-science" id="home_open_science_link" class="text_link">Guidelines to apply open science to any scientific project</a>
+	</div>
+</div>
+<div class="home_section">
+	<h2>Recommended books and documentation</h2>
+	<div class="home_book">
+		<h3>Chemistry: The central science</h3>
+		<span>Authors: </span>
+		<p><strong>Very important</strong> book to start learning chemistry on a scientist level.</p>
+	</div>
+	<div class="home_book">
+		<h3>Organic chemistry</h3>
+		<span>Authors: </span>
+		<p></p>
+	</div>
+	<div class="home_book">
+		<h3>Molecular biology of the cell</h3>
+		<span>Authors: </span>
+		<p></p>
+	</div>
+	<div class="home_book">
+		<h3>Understanding nutrition</h3>
+		<span>Authors: </span>
+		<p></p>
+	</div>
+	<div class="home_book">
+		<h3>Biochemistry</h3>
+		<span>Authors: </span>
+		<p></p>
+	</div>
+	<div class="home_book">
+		<h3>Deep space propulsion</h3>
+		<span>Authors: </span>
+		<p></p>
+	</div>
+	<div class="home_book">
+		<h3>PHP documentation</h3>
+		<span></span>
+		<p>Excellent programming language to start learning programming.</p>
+		<a href="" class="text_link">View documentation</a>
+	</div>
+	<div class="home_book">
+		<h3>The C++ programming language</h3>
+		<span>Authors: Bjarne Stroustrup</span>
+		<p>Maybe too long, but excellent book to learn all about C++ after learning in a normal level this programming language.</p>
+	</div>
+	<div class="home_book">
+		<h3>Jekyll documentation</h3>
+		<span></span>
+		<p>Incredible framework to build websites with free hosting thanks to GitHub Pages.</p>
+		<a href="" class="text_link">View documentation</a>
+	</div>
+</div>
+<div id="home_starting_science" class="home_section">
+	<h2>Starting in science</h2>
+	<img src="/assets/scientist-icon.png" id="home_starting_science_icon">
+	<div id="home_starting_science_text">
+		<p><strong>At any age</strong>, you can start learning science, and become later a scientist. You can become a scientist being a teenager, a good amount of scientists have started studying since at that age, and not after 18 years old.
+		<br><br>
+		You can learn the basics of science, in order to understand this website and any other website committed to it, in just some weeks, by reading the start of our <strong>Guide of advanced science</strong>. After that, you can complete it, or read other science books.
+		<br><br>
+		<a href="/starting-in-science" class="text_link">How to start in science</a></p>
+	</div>
+</div>
+<div class="home_section">
+	<h2>Members</h2>
+	<div class="home_member">
+		<a href="https://iarfen.github.io"><img src="/assets/ismael-correa-photo.png" alt="Picture of Ismael Correa Castro at 27 years old"></a>
+		<div>
+			<a href="https://iarfen.github.io" class="text_link">Ismael Correa Castro</a>
+		</div>
+		<p>Ismael Correa Castro is the <strong>founder</strong> of Scifir. He has created Scifir, as a digital foundation, in order to publish all his <strong>scientific inventions</strong>, which at the start of Scifir were of the categories of creational biology, genetic engineering and informatics.</p>
+	</div>
+</div>
+<div id="home_history" class="home_section">
+	<h2>History</h2>
+	<p id="home_history_text">Scifir has been founded in <strong>2023</strong> by Ismael Correa Castro, a chilean of <strong>33 years old</strong>, in order to publish inside it his numerous inventions and ideas about science that he developed since <strong>2007</strong>. It's a digital foundation, it doesn't pertains to any country or other form of legislation, and operates through the web, without any building.</p>
+</div>

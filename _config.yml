@@ -1,0 +1,114 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# If you need help with YAML syntax, here are some quick references for you:
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+title: Scifir
+email: scifir.foundation@gmail.com
+description: >- # this means to ignore newlines until "baseurl:"
+  The Scifir Foundation is a digital organization that develops open source software, open source hardware and open access papers of science. It has been founded by Ismael Correa Castro in 2023.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: jekyllrb
+github_username:  scifir
+include_header: ""
+
+# Build settings
+theme: minima
+collections:
+  news:
+    output: true
+    permalink: /news/:title
+  guides:
+    output: true
+    permalink: /guides/:title
+  posts:
+    output: true
+    permalink: /articles/:title
+  articles_categories:
+    output: true
+    permalink: /articles-by-category/:name
+  articles_authors:
+    output: true
+    permalink: /articles-by-author/:name
+  news_authors:
+    output: true
+    permalink: /news-by-author/:name
+  guides_authors:
+    output: true
+    permalink: /guides-by-author/:name
+  authors:
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+defaults:
+  - scope:
+      path: ""
+      type: "news"
+    values:
+      layout: "new"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "article"
+  - scope:
+      path: ""
+      type: "articles_authors"
+    values:
+      layout: "articles_author"
+  - scope:
+      path: ""
+      type: "articles_categories"
+    values:
+      layout: "articles_category"
+  - scope:
+      path: ""
+      type: "news_authors"
+    values:
+      layout: "news_author"
+  - scope:
+      path: ""
+      type: "guides_authors"
+    values:
+      layout: "guides_author"
+  - scope:
+      path: ""
+      type: "guides"
+    values:
+      layout: "guide"
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/

@@ -1,0 +1,15 @@
+{% for guide in include.guides_list limit:include.guides_limit %}
+{% if jekyll.environment == "development" or (jekyll.environment == "production" and (guide.status == "published" or guide.status == "beta")) %}
+	{% assign author = site.authors | where: "name", guide.author | first %}
+	<div class="home_guide">
+		<h2><a href="{{ guide.url }}" class="text_link">{{ guide.title }}</a></h2>
+		<span class="home_guide_metadata">Publication date: </span>
+		<span>{{ guide.date | date: "%Y-%m-%d" }}</span>
+		<div>
+			<span class="home_guide_metadata">Authors: </span>
+			{% for page_author in guide.authors %}{% assign guide_author = site.guides_authors | where: "name", page_author | first %}{% assign author = site.authors | where: "name", page_author | first %}<a href="{{ guide_author.url }}" class="text_link">{{ author.publishing_name }}</a>{% if forloop.index != forloop.length %}<span>, </span>{% endif %}{% endfor %}
+		</div>
+		<p>{{ guide.description }}</p>
+	</div>
+{% endif %}
+{% endfor %}

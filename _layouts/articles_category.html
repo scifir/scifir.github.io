@@ -1,0 +1,10 @@
+---
+layout: central_layout
+header: <link rel="stylesheet" href="/assets/articles.css" /><link rel="stylesheet" href="/assets/articles_list.css" />
+---
+
+{% assign category = site.articles_categories | where: "name", page.name | first %}
+<h1>Articles of {{ page.name }}</h1>
+{% assign filtered_posts = site.posts | where_exp:"item", "item.categories contains page.name" %}
+{% include articles_list.html articles_list=filtered_posts articles_limit=50 %}
+

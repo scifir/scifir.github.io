@@ -1,0 +1,16 @@
+---
+layout: central_layout
+header: <link rel="stylesheet" href="/assets/new.css" />
+---
+
+<h2>New of Scifir</h2>
+{% assign author = site.authors | where: "name", page.author | first %}
+<h1>{{ page.title }}</h1>
+<div id="home_new_metadata_box">
+	<span class="home_new_metadata">Publication date: </span>
+	<span>{{ page.date | date: "%Y-%m-%d" }}</span>
+	<span class="home_new_metadata">Authors: </span>
+	{% for page_author in page.authors %}{% assign article_author = site.articles_authors | where: "name", page_author | first %}{% assign author = site.authors | where: "name", page_author | first %}<a href="{{ article_author.url }}" class="text_link">{{ author.publishing_name }}</a>{% if forloop.index != forloop.length %}<span>, </span>{% endif %}{% endfor %}
+</div>
+
+{{ content }}

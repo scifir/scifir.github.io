@@ -1,0 +1,20 @@
+---
+layout: central_layout
+header: <link rel="stylesheet" href="/assets/guide.css" />
+---
+
+<h2>Guide of Scifir</h2>
+{% assign author = site.authors | where: "name", page.author | first %}
+<h1>{{ page.title }}</h1>
+<div id="home_guide_metadata_box">
+	<span class="home_guide_metadata">Edition: </span>
+	<span>{{ page.edition }}</span>
+	<span class="home_guide_metadata">Publication date: </span>
+	<span>{{ page.date | date: "%Y-%m-%d" }}</span>
+	<span class="home_guide_metadata">Authors: </span>
+	{% for page_author in page.authors %}{% assign article_author = site.articles_authors | where: "name", page_author | first %}{% assign author = site.authors | where: "name", page_author | first %}<a href="{{ article_author.url }}" class="text_link">{{ author.publishing_name }}</a>{% if forloop.index != forloop.length %}<span>, </span>{% endif %}{% endfor %}
+	<span class="home_guide_metadata">Categories: </span>
+	{% for category in page.categories %}{% assign article_category = site.articles_categories | where: "name", category | first %}<a href="{{ article_category.url }}" class="text_link">{{ article_category.name }}</a>{% if forloop.index != forloop.length %}<span>, </span>{% endif %}{% endfor %}
+</div>
+
+{{ content }}

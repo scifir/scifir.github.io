@@ -1,0 +1,11 @@
+---
+layout: central_layout
+header: <link rel="stylesheet" href="/assets/news.css" /><link rel="stylesheet" href="/assets/news_list.css" />
+header_title: "News of Scifir"
+---
+
+{% assign author = site.authors | where: "name", page.name | first %}
+<h1>News by {{ author.publishing_name }}</h1>
+<p>All those news have been written by <strong>{{ author.publishing_name }}</strong>. You can know about him <a href="{{ author.website }}" class="text_link">here</a>.</p>
+{% assign filtered_news = site.news | where_exp:"item", "item.authors contains page.name" %}
+{% include news_list.html news_list=filtered_news news_limit=50 %}

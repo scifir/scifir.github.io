@@ -1,0 +1,24 @@
+{% for post in include.articles_list limit:include.articles_limit %}
+{% if jekyll.environment == "development" or (jekyll.environment == "production" and (post.status == "published" or post.status == "beta")) %}
+<div class="home_article">
+	<h2><a href="{{ post.url }}" class="text_link">{{ post.title }}</a></h2>
+	<div>
+		<span class="home_article_metadata">Edition: </span>
+		<span>{{ post.edition }}</span>
+	</div>
+	<div>
+		<span class="home_article_metadata">Publication date: </span>
+		<span>{{ post.date | date: "%Y-%m-%d" }}</span>
+	</div>
+	<div>
+		<span class="home_article_metadata">Authors: </span>
+		{% for page_author in post.authors %}{% assign article_author = site.articles_authors | where: "name", page_author | first %}{% assign author = site.authors | where: "name", page_author | first %}<a href="{{ article_author.url }}" class="text_link">{{ author.publishing_name }}</a>{% if forloop.index != forloop.length %}<span>, </span>{% endif %}{% endfor %}
+	</div>
+	<div>
+		<span class="home_article_metadata">Categories: </span>
+		{% for category in post.categories %}{% assign article_category = site.articles_categories | where: "name", category | first %}<a href="{{ article_category.url }}" class="text_link">{{ article_category.name }}</a>{% if forloop.index != forloop.length %}<span>, </span>{% endif %}{% endfor %}
+	</div>
+	<p>{{ post.excerpt | strip_html | slice: 0, 200 }}</p>
+</div>
+{% endif %}
+{% endfor %}

@@ -1,0 +1,10 @@
+---
+layout: central_layout
+header: <link rel="stylesheet" href="/assets/guides.css" /><link rel="stylesheet" href="/assets/guides_list.css" />
+---
+
+{% assign author = site.authors | where: "name", page.name | first %}
+<h1>Guides of {{ author.publishing_name }}</h1>
+<p>All those guides have been written by <strong>{{ author.publishing_name }}</strong>. You can know about him <a href="{{ author.website }}" class="text_link">here</a>.</p>
+{% assign filtered_guides = site.guides | where_exp:"item", "item.authors contains page.name" %}
+{% include guides_list.html guides_list=filtered_guides guides_limit=50 %}

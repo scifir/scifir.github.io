@@ -1,0 +1,40 @@
+#body
+{
+	min-height: 400px;
+	padding: 40px;
+	width: calc(100% - 80px);
+}
+
+#body > h1
+{
+	font-size: 30px;
+	text-align: center;
+}
+
+#body > h2
+{
+	font-size: 24px;
+	margin-top: 20px;
+}
+
+#body > p
+{
+	margin-top: 20px;
+}
+
+#home_new_metadata_box
+{
+	margin-top: 5px;
+}
+
+.home_new_metadata
+{
+	color: #636363;
+}
+
+.home_new_metadata:not(:first-child)
+{
+	color: #636363;
+	margin-left: 20px;
+}
+
