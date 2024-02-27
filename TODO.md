@@ -18,6 +18,8 @@
 
 // TODO: design the science academy (digital,free)
 
+// TODO: extension of categories, add all the other normal technologic categories like clothing, electrodomestics, etc
+
 // SEO
 // TODO: apply new guidelines
 
