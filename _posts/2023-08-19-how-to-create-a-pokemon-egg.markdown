@@ -1,6 +1,6 @@
 ---
-title:  "How to create a pokemon egg"
-date:   2023-08-19 12:10:00 -0400
+title: "How to create a pokemon egg"
+date: 2023-08-19 12:10:00 -0400
 categories: homunculogy
 authors: ismaelc
 status: draft

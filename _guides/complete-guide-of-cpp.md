@@ -39,27 +39,88 @@ The **GNU binutils** are tools used to analize the files compiled and created wi
 - **objdump:** It allows to see the instructions of an object file.
 - **readelf:** It allows to read an elf file.
 
+## C++ IDEs
+
+- **KDevelop:** Better C++ IDE, it includes even a C++ linter.
+- **CodeBlocks:** Light C++ IDE with all the usually important features.
+
+## Installing C++ tools
+
+### Linux
+
+Install the packages, through **apt** or the package manager of your Linux distribution if it's another. The packages you must install are the ones containing **gcc**, **clang**, **make**, **cmake**, **autotools**. Additoinally, you should add **gtk**, **wxwidgets** and **qt**.
+
+### Windows
+
+Inside Windows use **MinGW** to install C++. There you can install the packages you need, like **gcc**, **clang**, **make**, **cmake**, **autotools**, **gtk**, **wxwidgets** and **qt**.
+
 ## Build tools
 
 ### make
 
-- **make:** It compiles all the project. It's better to use -j to specify the number of jobs to use.
+- **make:** It compiles all the project. It's better to use **-j** to specify the number of jobs to use.
 - **make -j n:** It compiles in the specified number of different jobs all the project.
 - **make docs:** It creates the documentation of the project, if there's documentation.
+- **make install:** It copies the builded files inside the install folder.
 
 ### cmake
 
 - **cmake -G system:** It compiles the project generated for the specified system.
 - **cmake -Dvariable:** It defines a variable for the build, which allows to change configurations if the variable is specified inside the build for the project.
 
+To build using cmake type the following commands, in order:
+
+```cpp
+cmake .
+make
+make install
+```
+
+When using cmake, you also have available **ctest** and **cpack**, explained bellow.
+
 ### autotools
 
 - **./configure:** Command that executes the autotools.
 - **./configure --help:** It displays all the configuration options available for the build.
 
+To build using autotools type the following commands, in order:
+
+```cpp
+./configure
+make
+make install
+```
+
 ### ninja
 
+The ninja build system uses a file called **build.ninja**. To build under ninja, just run **ninja**.
+
 ### qmake
+
+The qmake build system uses a file with **.pro** extension. To build under qmake use the following command, the example is for a file called hello.pro:
+
+```cpp
+qmake -o Makefile hello.pro
+```
+
+An example of a qmake file is the following:
+
+```cpp
+CONFIG += debug
+HEADERS += hello.h
+SOURCES += hello.cpp
+SOURCES += main.cpp
+win32 {
+    SOURCES += hellowin.cpp
+}
+unix {
+    SOURCES += hellounix.cpp
+}
+```
+
+### Eclipse internal builder
+
+The IDE **Eclipse** has an internal builder for C++, which is possible to use in replacement of the other builders. That builder is configured in a window of the program for each project.
 
 ## Sintaxis
 
@@ -71,6 +132,9 @@ The **GNU binutils** are tools used to analize the files compiled and created wi
 - **int:** integer. Sizes 4 bytes.
 - **long:** integer.
 - **long long:** integer.
+- **unsigned int:** unsigned integer. Sizes 4 bytes.
+- **unsigned long:** unsigned integer.
+- **unsigned long long:** unsigned integer.
 - **float:** floating-point. Sizes 4 bytes.
 - **double:** floating-point. Sizes 8 bytes.
 - **long double:** floating-point. Sizes 16 bytes.
@@ -153,3 +217,16 @@ To work with 3D the following libraries are important:
 To work inside Linux the following libraries are used:
 
 - **dbus:** To communicate between different programs.
+
+The compression libraries to know about are the following:
+
+- **zlib:** Most common compression library.
+- **zstd:** Currently, the faster compression library.
+- **zip:** The compression library of **winzip**.
+- **tar:** The library that archives files, withuot necessarily compression.
+
+The libraries through which compilers are made are the following:
+
+- **gmp:**
+- **mpfr:**
+- **mpc:**
