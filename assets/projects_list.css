@@ -18,5 +18,16 @@
 
 .home_project > p
 {
+	height: 165px;
 	text-align: left;
+}
+
+.home_project > a
+{
+	margin-top: 15px;
+}
+
+#home_projects_explanation
+{
+	margin-top: 10px;
 }

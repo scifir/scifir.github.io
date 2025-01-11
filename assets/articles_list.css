@@ -1,12 +1,19 @@
 .home_article
 {
 	display: inline-block;
+	height: 290px;
 	margin-right: 20px;
 	margin-top: 20px;
 	width: 300px;
 	vertical-align: top;
 	padding: 20px;
 	border: 1px solid #aaaaaa;
+	text-align: left;
+}
+
+.home_article_first_metadata
+{
+	margin-top: 10px;
 }
 
 .home_article_metadata

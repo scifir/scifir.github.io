@@ -56,6 +56,7 @@
 .home_section
 {
 	padding: 20px;
+	text-align: center;
 }
 
 .home_section > h2
@@ -64,9 +65,31 @@
 	font-size: 36px;
 }
 
-#home_organization > p
+#home_organization
+{
+	background-color: #35b3fc;
+	padding: 0px;
+	padding-left: 100px;
+	text-align: left;
+}
+
+#home_organization_content
+{
+	background-color: #ffffff;
+	display: inline-block;
+	width: 1200px;
+	padding: 20px;
+}
+
+#home_organization_content > p
 {
 	margin-top: 20px;
+}
+
+#home_organization_content > h2
+{
+	text-align: center;
+	font-size: 36px;
 }
 
 #home_organization_box
@@ -87,6 +110,7 @@
 {
 	display: inline-block;
 	width: 600px;
+	text-align: left;
 }
 
 #home_organization_explanation > li
@@ -96,7 +120,24 @@
 
 #home_open_science
 {
+	background-color: #aa2afa;
+	padding: 0px;
+	padding-right: 100px;
+	text-align: right;
+}
+
+#home_open_science_content
+{
+	display: inline-block;
+	background-color: #ffffff;
 	text-align: center;
+	width: 1200px;
+}
+
+#home_open_science_content > h2
+{
+	text-align: center;
+	font-size: 36px;
 }
 
 #home_open_science_logo
@@ -113,6 +154,47 @@
 	vertical-align: top;
 	margin-top: 50px;
 	text-align: left;
+}
+
+.home_book
+{
+	display: inline-block;
+	margin-right: 20px;
+	margin-top: 20px;
+	width: 300px;
+	vertical-align: top;
+	padding: 20px;
+	border: 1px solid #aaaaaa;
+	text-align: center;
+	height: 360px;
+}
+
+.home_book > h3
+{
+	font-size: 20px;
+	margin-top: 10px;
+}
+
+.home_book > a
+{
+	margin-top: 10px;
+}
+
+.home_book > section,.home_book > p
+{
+	text-align: left;
+	margin-top: 10px;
+}
+
+.home_book > section > span
+{
+	color: #636363;
+}
+
+.home_book_image
+{
+	display: inline-block;
+	width: 180px;
 }
 
 #home_history

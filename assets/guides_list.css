@@ -7,6 +7,7 @@
 	vertical-align: top;
 	padding: 20px;
 	border: 1px solid #aaaaaa;
+	text-align: left;
 }
 
 .home_guide_metadata
@@ -15,6 +16,12 @@
 }
 
 .home_guide > p
+{
+	height: 150px;
+	margin-top: 10px;
+}
+
+#home_guides_explanation
 {
 	margin-top: 10px;
 }

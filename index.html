@@ -32,6 +32,7 @@ header_title: "Scifir"
 </div>
 <div class="home_section">
 	<h2>Projects</h2>
+	<p id="home_projects_explanation">All the projects of Scifir have <strong>open participation</strong>, which means that any scientist can join them.</p>
 	<div class="home_project">
 		<h2>scifir-units</h2>
 		<p>C++ library that gives units of measurement, scalar and vectorial, like length and time, that replace the use of numeric values. It also gives coordinates, points, and a lot of special units, like percentage. <br><br><strong>Relatively essential</strong> for any serious scientific software.</p>
@@ -57,93 +58,107 @@ header_title: "Scifir"
 		<a href="https://www.github.com/scifir/cwd-file-format" class="text_link">View repository</a>
 	</div>
 	<div class="home_view_all_box"><a href="/projects" class="home_view_all">View all projects</a></div>
-	<p>All the projects of Scifir have <strong>open participation</strong>, which means that any scientist can join them.</p>
 </div>
 <div class="home_section">
 	<h2>Guides</h2>
+	<p id="home_guides_explanation">All the guides of Scifir are short and allow to know the <strong>essential concepts</strong> of the topic they teach.</p>
 	{% include guides_list.html guides_list=site.guides guides_limit=8 %}
 	<div class="home_view_all_box"><a href="/guides" class="home_view_all">View all guides</a></div>
 </div>
 <div id="home_organization" class="home_section">
-	<h2>How is Scifir organized</h2>
-	<p>Scifir is organized in the following way, which can be imitated partially or completely in any other science organization:</p>
-	<div id="home_organization_box">
-	<ul id="home_organization_explanation">
-		<li><strong>News:</strong> Any important news about Scifir, can be about any project, member, or anything that has happened.</li>
-		<li><strong>Projects:</strong> The scientific projects we are developing. All projects inside Scifir have <strong>open participation</strong>, and any scientist can join or make comments. Each project has its own website, which can be the GitHub repository or a complete website.</li>
-		<li><strong>Articles:</strong> Articles about science. They are publications of science concepts, theories, formulas, experiments and inventions, but they have a text format different than common papers, so they are called inside Scifir articles.</li>
-		<li><strong>Guides:</strong> Learning material of science, usually summarized, which is better to read previous to the lecture of an entire book.</li>
-	</ul>
-	<img src="/assets/science-icons.png" alt="Icons of science" id="home_organization_picture">
+	<div id="home_organization_content">
+		<h2>How is Scifir organized</h2>
+		<p>Scifir is organized in the following way, which can be imitated partially or completely in any other science organization:</p>
+		<div id="home_organization_box">
+		<ul id="home_organization_explanation">
+			<li><strong>News:</strong> Any important news about Scifir, can be about any project, member, or anything that has happened.</li>
+			<li><strong>Projects:</strong> The scientific projects we are developing. All projects inside Scifir have <strong>open participation</strong>, and any scientist can join or make comments. Each project has its own website, which can be the GitHub repository or a complete website.</li>
+			<li><strong>Articles:</strong> Articles about science. They are publications of science concepts, theories, formulas, experiments and inventions, but they have a text format different than common papers, so they are called inside Scifir articles.</li>
+			<li><strong>Guides:</strong> Learning material of science, usually summarized, which is better to read previous to the lecture of an entire book.</li>
+		</ul>
+		<img src="/assets/science-icons.png" alt="Icons of science" id="home_organization_picture">
+		</div>
+		<p>Scifir is a <strong>digital foundation</strong>, which is how has been named here the foundations that are not pertaining to any country or form of legislation.</p>
 	</div>
-	<p>Scifir is a <strong>digital foundation</strong>, which is how has been named here the foundations that are not pertaining to any country or form of legislation.</p>
 </div>
 <div id="home_open_science" class="home_section">
-	<h2>Open science</h2>
-	<img src="/assets/open-science-logo.png" alt="Logo of Open Science v3" id="home_open_science_logo">
-	<div id="home_open_science_text">
-		<p><strong>Open science</strong> is an initiative that aims to make science open, like open source, and then accessible for anyone. <strong>Scifir follows open science</strong>, and all his scientific projects are open. Members are not mandated to make all their projects open, but the projects added to Scifir must be open in order to be accepted.</p>
-		<br>
-		<p>Open science has the following <strong>six principles</strong>:</p>
-		<ul>
-			<li>Open methodology.</li>
-			<li>Open source.</li>
-			<li>Open data.</li>
-			<li>Open access.</li>
-			<li>Open peer review.</li>
-			<li>Open educational resources.</li>
-		</ul>
-		<a href="/open-science" id="home_open_science_link" class="text_link">Guidelines to apply open science to any scientific project</a>
+	<div id="home_open_science_content">
+		<h2>Open science</h2>
+		<img src="/assets/open-science-logo.png" alt="Logo of Open Science v3" id="home_open_science_logo">
+		<div id="home_open_science_text">
+			<p><strong>Open science</strong> is an initiative that aims to make science open, like open source, and then accessible for anyone. <strong>Scifir follows open science</strong>, and all his scientific projects are open. Members are not mandated to make all their projects open, but the projects added to Scifir must be open in order to be accepted.</p>
+			<br>
+			<p>Open science has the following <strong>six principles</strong>:</p>
+			<ul>
+				<li>Open methodology.</li>
+				<li>Open source.</li>
+				<li>Open data.</li>
+				<li>Open access.</li>
+				<li>Open peer review.</li>
+				<li>Open educational resources.</li>
+			</ul>
+			<a href="/open-science" id="home_open_science_link" class="text_link">Guidelines to apply open science to any scientific project</a>
+		</div>
 	</div>
 </div>
 <div class="home_section">
-	<h2>Recommended books and documentation</h2>
+	<h2>Recommended books and documentations</h2>
 	<div class="home_book">
+		<img src="/assets/book-icon.png" alt="Icon of book" class="home_book_image">
 		<h3>Chemistry: The central science</h3>
-		<span>Authors: </span>
+		<section><span>Authors:</span> Brown, LeMay, et al.</section>
 		<p><strong>Very important</strong> book to start learning chemistry on a scientist level.</p>
 	</div>
 	<div class="home_book">
+		<img src="/assets/book-icon.png" alt="Icon of book" class="home_book_image">
 		<h3>Organic chemistry</h3>
-		<span>Authors: </span>
-		<p></p>
+		<section><span>Authors:</span> T. W. Graham Solomons, Craig B. Fryhle, et al.</section>
+		<p>Excellent book to learn <strong>organic chemistry</strong> synthesis, interpretation of NMR spectra, and organic chemistry molecules.</p>
 	</div>
 	<div class="home_book">
+		<img src="/assets/book-icon.png" alt="Icon of book" class="home_book_image">
 		<h3>Molecular biology of the cell</h3>
-		<span>Authors: </span>
-		<p></p>
+		<section><span>Authors:</span> Bruce Alberts, Rebecca Heald, et al.</section>
+		<p>Big book about <strong>cells</strong>. <strong>Most important</strong> book for biologists.</p>
 	</div>
 	<div class="home_book">
+		<img src="/assets/book-icon.png" alt="Icon of book" class="home_book_image">
 		<h3>Understanding nutrition</h3>
-		<span>Authors: </span>
-		<p></p>
+		<section><span>Authors:</span> Eleanor Whitney, Sharon Rady Rolfes.</section>
+		<p>Intense book of nutrition, very important to <strong>understand pharmacology</strong>, <strong>health</strong> and to <strong>design of new molecules</strong> with pharmacological effect.</p>
 	</div>
 	<div class="home_book">
+		<img src="/assets/book-icon.png" alt="Icon of book" class="home_book_image">
 		<h3>Biochemistry</h3>
-		<span>Authors: </span>
-		<p></p>
+		<section><span>Authors:</span> Donald Voet, Judith G. Voet.</section>
+		<p>Intense book about the <strong>biomolecules</strong> that comprise our body.</p>
 	</div>
 	<div class="home_book">
+		<img src="/assets/book-icon.png" alt="Icon of book" class="home_book_image">
 		<h3>Deep space propulsion</h3>
-		<span>Authors: </span>
-		<p></p>
+		<section><span>Authors:</span> K. F. Long.</section>
+		<p>Most important book to learn how to create <strong>new spacehips</strong> in real life.</p>
 	</div>
 	<div class="home_book">
+		<img src="/assets/book-icon.png" alt="Icon of book" class="home_book_image">
 		<h3>PHP documentation</h3>
-		<span></span>
-		<p>Excellent programming language to start learning programming.</p>
-		<a href="" class="text_link">View documentation</a>
+		<p>Very good programming language to <strong>build websites</strong> and to <strong>start learning programming</strong>.</p>
+		<br>
+		<a href="https://www.php.net/manual/en" class="text_link">View documentation</a>
 	</div>
 	<div class="home_book">
+		<img src="/assets/book-icon.png" alt="Icon of book" class="home_book_image">
 		<h3>The C++ programming language</h3>
-		<span>Authors: Bjarne Stroustrup</span>
+		<section><span>Authors:</span> Bjarne Stroustrup.</section>
 		<p>Maybe too long, but excellent book to learn all about C++ after learning in a normal level this programming language.</p>
 	</div>
 	<div class="home_book">
+		<img src="/assets/book-icon.png" alt="Icon of book" class="home_book_image">
 		<h3>Jekyll documentation</h3>
-		<span></span>
+		<section><span>Authors:</span> Tom Preston-Werner.</section>
 		<p>Incredible framework to build websites with free hosting thanks to GitHub Pages.</p>
-		<a href="" class="text_link">View documentation</a>
+		<br>
+		<a href="https://jekyllrb.com/docs" class="text_link">View documentation</a>
 	</div>
 </div>
 <div id="home_starting_science" class="home_section">
