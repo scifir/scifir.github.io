@@ -1,4 +1,3 @@
-
 ---
 title: "Psychological problems of robotics"
 date: 2024-02-25 12:10:00 -0400

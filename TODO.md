@@ -4,20 +4,21 @@
 
 - **TODO:** talk about digital foundations
 - **TODO:** add the email on the members list
-- **TODO:** use of tag <address>
+- **TODO:** use of tag \<address\>
 - **TODO:** add the volunteer program to the home
 - **TODO:** add the amount of pages of each recommended book
+- **TODO:** add a webpage about the standards of Scifir (units, gene names, molecule names, geographical position in the universe, etc)
+- **TODO:** section of the webpage of recommended libraries
 
 ## WEBPAGES
 
 - **TODO:** webpage for 404.html
-- **TODO:** finish the webpage of open science
 - **TODO:** webpage of recommended libraries, ebook formats, the ISBN, among other important information regarding books
 - **TODO:** design the science academy (digital,free)
 - **TODO:** introduction to science (what's a scientist, areas, open science, open source, open access, etc)
+- **TODO:** webpage of some details about each author, and the website of it (if he has one)
 
-- **TODO:** layout of news
-- **TODO:** layout of guides
+- **TODO:** make the layout of guides, news and articles more narrow
 - **TODO:** attribute flaticon
 
 ## WEBPAGES - VOLUNTEER PROGRAM
@@ -56,3 +57,13 @@
 - **TODO:** check sitemap.xml
 - **TODO:** finish configuring plugin of htmlproofer
 - **TODO:** check the validity of html for all webpages
+
+## INAUGURATION
+
+- **TODO:** finish the guide of Linux
+- **TODO:** finish the guide of C++
+- **TODO:** finish the article of creational biology
+- **TODO:** finish the webpage starting in science
+- **TODO:** finish the webpage of open science
+- **TODO:** finish the webpage of the volunteer program
+- **TODO:** finish the new of the inauguration of the website
