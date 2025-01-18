@@ -9,10 +9,10 @@
 - **TODO:** add the amount of pages of each recommended book
 - **TODO:** add a webpage about the standards of Scifir (units, gene names, molecule names, geographical position in the universe, etc)
 - **TODO:** section of the webpage of recommended libraries
+- **TODO:** section of recommended science fiction creations, novels, comics and videogames
 
 ## WEBPAGES
 
-- **TODO:** webpage for 404.html
 - **TODO:** webpage of recommended libraries, ebook formats, the ISBN, among other important information regarding books
 - **TODO:** design the science academy (digital,free)
 - **TODO:** introduction to science (what's a scientist, areas, open science, open source, open access, etc)
@@ -20,6 +20,7 @@
 
 - **TODO:** make the layout of guides, news and articles more narrow
 - **TODO:** attribute flaticon
+- **TODO:** delete the width: 100% of #body
 
 ## WEBPAGES - VOLUNTEER PROGRAM
 
