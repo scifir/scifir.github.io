@@ -9,15 +9,12 @@
 
 - **TODO:** make the layout of guides, news and articles more narrow
 - **TODO:** attribute flaticon
+- **TODO:** section of the webpage of recommended editorials
 
-## WEBPAGES - HOME (7)
+## WEBPAGES - HOME (3)
 
-- **TODO:** talk about digital foundations
-- **TODO:** add the email on the members list
-- **TODO:** use of tag \<address\>
 - **TODO:** add the volunteer program to the home
 - **TODO:** add the amount of pages of each recommended book
-- **TODO:** section of the webpage of recommended libraries
 - **TODO:** section of recommended science fiction creations, novels, comics and videogames
 
 ## WEBPAGES - VOLUNTEER PROGRAM (2)

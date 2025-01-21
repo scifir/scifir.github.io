@@ -37,7 +37,7 @@
 #home_presentation_welcome_box
 {
 	left: 20px;
-	top: 260px;
+	top: 240px;
 }
 
 #home_presentation_welcome_box > h1
@@ -53,7 +53,7 @@
 
 #home_presentation_whats_science
 {
-	top: 260px;
+	top: 240px;
 	right: 20px;
 	width: 400px;
 }
