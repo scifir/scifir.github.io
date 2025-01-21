@@ -1,4 +1,5 @@
-// SECTIONS
+# SECTIONS
+
 - Home
 - Articles
 - Software

@@ -1,0 +1,26 @@
+#body
+{
+	padding: 30px;
+	width: auto !important;
+}
+
+#body > h1
+{
+	font-size: 30px;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+#body > h2
+{
+	font-size: 24px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+#body > h3
+{
+	font-size: 20px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
