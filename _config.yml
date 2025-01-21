@@ -29,7 +29,6 @@ github_username:  scifir
 include_header: ""
 
 # Build settings
-theme: minima
 collections:
   news:
     output: true
@@ -98,6 +97,9 @@ exclude:
   - README.md
   - SITE.md
   - TODO.md
+  - .jekyll-cache/
+  - Gemfile
+  - Gemfile.lock
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -109,10 +111,7 @@ exclude:
 #
 # exclude:
 #   - .sass-cache/
-#   - .jekyll-cache/
 #   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
 #   - node_modules/
 #   - vendor/bundle/
 #   - vendor/cache/

@@ -22,15 +22,16 @@
 - **TODO:** search if teenagers and even childs of 12 years can work in volunteering remotely
 - **TODO:** search laws related to volunteer work in Chile
 
-## TECHNICAL FEATURES (7)
+## TECHNICAL FEATURES (8)
 
 - **TODO:** add html5 semantics, if there are, for dates, categories, emails, etc
 - **TODO:** add pagination
 - **TODO:** download of articles and guides as pdf files
 - **TODO:** extension of categories, add all the other normal technologic categories like clothing, electrodomestics, etc
 - **TODO:** add a responsive design for the cellphone
-- **TODO:** delete from the file sitemap.xml the IDEAS_OF_CONTENT, INSTRUCTIONS, README and TODO to be generated
 - **TODO:** find out if \<nav\> should be used for the icons of \<header\> and of \<footer\>
+- **TODO:** check what is feed.xml
+- **TODO:** check if to add .jekyll-cache to .gitignore
 
 ## TECHNICAL FEATURES - FACEBOOK (2)
 
@@ -53,9 +54,9 @@
 
 ## DEPLOY (3)
 
-- **TODO:** check sitemap.xml
 - **TODO:** finish configuring plugin of htmlproofer
 - **TODO:** check the validity of html for all webpages
+- **TODO:** sitemap should not display the urls of html webpages with the .html extension
 
 ## INAUGURATION (6)
 

@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Nomenclature of robots"
 categories: robotics
 authors: ismaelc
