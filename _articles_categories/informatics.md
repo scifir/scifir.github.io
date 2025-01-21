@@ -1,3 +1,4 @@
 ---
 name: informatics
+url: informatics
 ---

@@ -1,0 +1,5 @@
+---
+name: economy
+url: economy
+---
+

@@ -2,6 +2,7 @@
 title: "Checklist of general chemistry"
 authors: ismaelc
 date: 2023-09-05
+categories: [start,chemistry]
 description: "Check that you know and remember all the concepts of general chemistry, the first area of study when studying chemistry."
 ---
 

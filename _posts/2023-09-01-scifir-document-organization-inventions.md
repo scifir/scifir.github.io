@@ -1,7 +1,7 @@
 ---
 title:  "Scifir document organization of inventions"
 date:   2023-08-19 12:10:00 -0400
-categories: science
+categories: general_science
 authors: ismaelc
 status: draft
 ---

@@ -2,6 +2,7 @@
 title: "Complete guide of C++"
 authors: ismaelc
 date: 2023-09-05
+categories: [start,informatics]
 description: "Learn all the different important technologies related to C++."
 ---
 

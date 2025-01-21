@@ -22,16 +22,13 @@
 - **TODO:** search if teenagers and even childs of 12 years can work in volunteering remotely
 - **TODO:** search laws related to volunteer work in Chile
 
-## TECHNICAL FEATURES (8)
+## TECHNICAL FEATURES (5)
 
 - **TODO:** add html5 semantics, if there are, for dates, categories, emails, etc
-- **TODO:** add pagination
-- **TODO:** download of articles and guides as pdf files
-- **TODO:** extension of categories, add all the other normal technologic categories like clothing, electrodomestics, etc
 - **TODO:** add a responsive design for the cellphone
-- **TODO:** find out if \<nav\> should be used for the icons of \<header\> and of \<footer\>
-- **TODO:** check what is feed.xml
-- **TODO:** check if to add .jekyll-cache to .gitignore
+- **TODO:** find out if \<nav\> should be used for the icons inside \<header\> and inside \<footer\>
+- **TODO:** decide what to do with feed.xml
+- **TODO:** delete the gems that are not being used, and update _config.yml too if needed
 
 ## TECHNICAL FEATURES - FACEBOOK (2)
 
@@ -48,7 +45,13 @@
 - **TODO:** search if the health insurance can work in Chile for foundations too
 - **TODO:** read the law 20500 of Chile
 
-## SCIENCE ACADEMY (1)
+## FUTURE - TECHNICAL FEATURES (3)
+
+- **TODO:** add pagination
+- **TODO:** download of articles and guides as pdf files
+- **TODO:** extension of categories, add all the other normal technologic categories like clothing, electrodomestics, etc
+
+## FUTURE - SCIENCE ACADEMY (1)
 
 - **TODO:** design the science academy (digital,free)
 

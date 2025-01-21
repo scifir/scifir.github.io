@@ -2,6 +2,7 @@
 title: "List of programming concepts"
 authors: ismaelc
 date: 2023-08-30
+categories: [start,informatics]
 description: "Learn a recopilation of all important programming concepts."
 ---
 

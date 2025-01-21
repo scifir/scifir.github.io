@@ -2,6 +2,7 @@
 title: "List of essential pharmaceuticals"
 authors: ismaelc
 date: 2023-09-05
+categories: [start,health,chemistry]
 description: "List of all essential pharmaceuticals to know. <strong>Essential</strong> to read."
 ---
 

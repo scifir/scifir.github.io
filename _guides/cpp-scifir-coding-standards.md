@@ -2,6 +2,7 @@
 title: "C++ Scifir coding standards"
 authors: ismaelc
 date: 2023-08-30
+categories: [start,informatics]
 description: "Learn how to program scientific software in C++, following the point of view of Scifir."
 ---
 

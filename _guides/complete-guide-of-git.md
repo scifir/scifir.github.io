@@ -2,6 +2,7 @@
 title: "Complete guide of git"
 authors: ismaelc
 date: 2023-10-12
+categories: [start,informatics]
 description: "Learn deeply about git."
 ---
 

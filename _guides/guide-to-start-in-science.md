@@ -2,6 +2,7 @@
 title: "Guide to start in science"
 authors: ismaelc
 date: 2023-09-05
+categories: [start,general_science]
 description: "Guide to learn fast all the basic topics and concepts on science, including chemistry, biology, physics and informatics."
 ---
 

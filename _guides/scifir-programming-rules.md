@@ -2,6 +2,7 @@
 title: "Scifir programming rules"
 authors: ismaelc
 date: 2023-08-30
+categories: [start,informatics]
 description: "Learn a recopilation of a good amount of important programming rules to apply to any software, scientific or not."
 ---
 

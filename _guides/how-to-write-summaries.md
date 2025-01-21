@@ -2,6 +2,7 @@
 title: "How to write summaries"
 authors: ismaelc
 date: 2023-08-30
+categories: [start,general_science,secondary]
 description: "How to write summaries for any branch of knowledge."
 ---
 

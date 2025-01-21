@@ -2,6 +2,7 @@
 title: "Accessibility rules for websites"
 authors: ismaelc
 date: 2023-09-05
+categories: [start,informatics,secondary]
 description: "Learn all the common and well-selected accessibility rules for websites"
 ---
 

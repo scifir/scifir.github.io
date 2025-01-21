@@ -1,7 +1,7 @@
 ---
 title: "Zone networks"
 date: 2023-08-19 12:10:00 -0400
-categories: smart_cities,netwoking
+categories: [smart_cities,networking]
 authors: ismaelc
 status: draft
 ---

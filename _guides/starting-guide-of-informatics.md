@@ -2,6 +2,7 @@
 title: "Starting guide of informatics"
 authors: ismaelc
 date: 2024-02-21
+categories: [start,informatics]
 description: "Learn all the basics of informatics, both software and hardware."
 ---
 

@@ -2,6 +2,7 @@
 title: "Complete guide of medicine"
 authors: ismaelc
 date: 2023-09-05
+categories: [start,biology,health]
 description: "Learn all the different parts of medicine, from the point of view that you already know chemistry and biology."
 ---
 

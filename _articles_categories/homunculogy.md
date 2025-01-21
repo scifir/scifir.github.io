@@ -1,4 +1,5 @@
 ---
 name: homunculogy
+url: homunculogy
 ---
 

@@ -2,6 +2,7 @@
 title: "Summary of programming languages"
 authors: ismaelc
 date: 2023-09-05
+categories: [start,informatics]
 description: "Summary of programming languages in common use today: C, C++, C#, Java, PHP, Ruby, Python, JavaScript."
 ---
 
