@@ -199,7 +199,7 @@
 	padding: 20px;
 	border: 1px solid #aaaaaa;
 	text-align: center;
-	height: 380px;
+	height: 400px;
 }
 
 .home_book > h3
@@ -213,13 +213,13 @@
 	margin-top: 10px;
 }
 
-.home_book > section,.home_book > p
+.home_book > div,.home_book > p
 {
 	text-align: left;
 	margin-top: 10px;
 }
 
-.home_book > section > span
+.home_book > div > span
 {
 	color: #636363;
 }

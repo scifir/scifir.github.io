@@ -22,29 +22,29 @@
 	{{ layout.header }}
 </head>
 <body>
-	<div id="header">
+	<header id="header">
 		<a href="/" id="header_logo">Scifir</a>
-		<div id="top_links">
+		<nav id="top_links" aria-label="central webpages">
 			<a href="/">Home</a>
 			<a href="/news">News</a>
 			<a href="/projects">Projects</a>
 			<a href="/articles">Articles</a>
 			<a href="/guides">Guides</a>
-		</div>
-		<div id="secondary_links">
+		</nav>
+		<nav id="secondary_links" aria-label="information webpages">
 			<a href="/participate">Participate</a>
 			<a href="/about">About</a>
 			<a href="/history">History</a>
 			<a href="/members">Members</a>
 			<a href="/contact">Contact</a>
-		</div>
+		</nav>
 		<a href="mailto:scifir.foundation@gmail.com" id="header_email_icon" class="header_icon"><img src="{{ site.baseurl }}/assets/layout/email-icon.png" alt="Send e-mail to Scifir"></a>
 		<a href="https://github.com/scifir" id="header_github_icon" class="header_icon"><img src="{{ site.baseurl }}/assets/layout/github-icon.png" alt="GitHub profile of Scifir"></a>
-	</div>
-	<div id="body">
+	</header>
+	<main id="body">
 	{{ content }}
-	</div>
-	<div id="footer">
+	</main>
+	<footer id="footer">
 		<h2>Scifir</h2>
 		<a href="mailto:scifir.foundation@gmail.com" id="footer_email_icon"><img src="{{ site.baseurl }}/assets/layout/email-icon.png" alt="Send e-mail to Scifir"></a>
 		<a href="https://github.com/scifir" id="footer_github_icon"><img src="{{ site.baseurl }}/assets/layout/github-icon.png" alt="GitHub profile of Scifir"></a>
@@ -52,6 +52,6 @@
 		<br>
 		<br>
 		Scifir is a <strong>digital foundation</strong>, which means it's a foundation that operates over the web, and not inside any specific country.</p>
-	</div>
+	</footer>
 </body>
 </html>

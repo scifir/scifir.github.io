@@ -1,6 +1,6 @@
 body
 {
-	font-family: verdana;
+	font-family: verdana, sans-serif;
 }
 
 #header
@@ -71,7 +71,7 @@ body
 	margin-right: 20px;
 }
 
-#header > div > a
+#header > nav > a
 {
 	color: #ffffff;
 	display: inline-block;
@@ -79,14 +79,14 @@ body
 	margin-top: 14px;
 }
 
-#header > div > a:hover
+#header > nav > a:hover
 {
 	color: #bbbbbb;
 	border-bottom: 3px solid #bbbbbb;
 	cursor: pointer;
 }
 
-#header > div > a.active
+#header > nav > a.active
 {
 	color: #bbbbbb;
 	border-bottom: 3px solid #bbbbbb;

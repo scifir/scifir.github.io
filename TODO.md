@@ -1,20 +1,20 @@
 # TODO for the website of Scifir
 
-## WEBPAGES (6)
+## WEBPAGES (7)
 
 - **TODO:** webpage of recommended libraries, ebook formats, the ISBN, among other important information regarding books
 - **TODO:** introduction to science (what's a scientist, areas, open science, open source, open access, etc)
-- **TODO:** webpage of some details about each author, and the website of it (if he has one)
 - **TODO:** webpage about the standards of Scifir (units, gene names, molecule names, geographical position in the universe, etc)
 
 - **TODO:** make the layout of guides, news and articles more narrow
 - **TODO:** attribute flaticon
 - **TODO:** section of the webpage of recommended editorials
 
-## WEBPAGES - HOME (3)
+- **TODO:** webpage of some details about each author, and the website of it (if he has one)
+
+## WEBPAGES - HOME (2)
 
 - **TODO:** add the volunteer program to the home
-- **TODO:** add the amount of pages of each recommended book
 - **TODO:** section of recommended science fiction creations, novels, comics and videogames
 
 ## WEBPAGES - VOLUNTEER PROGRAM (2)
@@ -22,24 +22,16 @@
 - **TODO:** search if teenagers and even childs of 12 years can work in volunteering remotely
 - **TODO:** search laws related to volunteer work in Chile
 
-## TECHNICAL FEATURES (5)
+## TECHNICAL FEATURES (6)
 
 - **TODO:** add html5 semantics, if there are, for dates, categories, emails, etc
 - **TODO:** add pagination
 - **TODO:** download of articles and guides as pdf files
 - **TODO:** extension of categories, add all the other normal technologic categories like clothing, electrodomestics, etc
 - **TODO:** add a responsive design for the cellphone
+- **TODO:** delete from the file sitemap.xml the IDEAS_OF_CONTENT, INSTRUCTIONS, README and TODO to be generated
 
-## FOUNDATION (2)
-
-- **TODO:** search if Scifir is considered also a Pyme related to chilean laws
-- **TODO:** search if the health insurance can work in Chile for foundations too
-
-## SCIENCE ACADEMY (1)
-
-- **TODO:** design the science academy (digital,free)
-
-## FACEBOOK (2)
+## TECHNICAL FEATURES - FACEBOOK (2)
 
 - **TODO:** add the facebook graph
 - **TODO:** add facebook comments
@@ -49,9 +41,17 @@
 - **TODO:** study google adwords
 - **TODO:** apply new guidelines of SEO
 
-## DEPLOY (4)
+## FOUNDATION (2)
 
-- **TODO:** check robots.txt
+- **TODO:** search if the health insurance can work in Chile for foundations too
+- **TODO:** read the law 20500 of Chile
+
+## SCIENCE ACADEMY (1)
+
+- **TODO:** design the science academy (digital,free)
+
+## DEPLOY (3)
+
 - **TODO:** check sitemap.xml
 - **TODO:** finish configuring plugin of htmlproofer
 - **TODO:** check the validity of html for all webpages
