@@ -92,6 +92,12 @@ defaults:
       type: "guides"
     values:
       layout: "guide"
+exclude:
+  - IDEAS_OF_CONTENT.md
+  - INSTRUCTIONS.md
+  - README.md
+  - SITE.md
+  - TODO.md
 
 # Exclude from processing.
 # The following items will not be processed, by default.
