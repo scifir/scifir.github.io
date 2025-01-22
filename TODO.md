@@ -45,20 +45,20 @@
 - **TODO:** search if the health insurance can work in Chile for foundations too
 - **TODO:** read the law 20500 of Chile
 
-## FUTURE - TECHNICAL FEATURES (3)
+## FUTURE - TECHNICAL FEATURES (4)
 
 - **TODO:** add pagination
 - **TODO:** download of articles and guides as pdf files
 - **TODO:** extension of categories, add all the other normal technologic categories like clothing, electrodomestics, etc
+- **TODO:** possibly use the gem github-pages too
 
 ## FUTURE - SCIENCE ACADEMY (1)
 
 - **TODO:** design the science academy (digital,free)
 
-## DEPLOY (3)
+## DEPLOY (2)
 
-- **TODO:** finish configuring plugin of htmlproofer
-- **TODO:** check the validity of html for all webpages
+- **TODO:** search if there's a website validator online, for all the website and not only for one webpage
 - **TODO:** sitemap should not display the urls of html webpages with the .html extension
 
 ## INAUGURATION (6)

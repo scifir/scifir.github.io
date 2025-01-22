@@ -22,9 +22,8 @@ title: Scifir
 email: scifir.foundation@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   The Scifir Foundation is a digital organization that develops open source software, open source hardware and open access papers of science. It has been founded by Ismael Correa Castro in 2023.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "https://scifir.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  scifir
 include_header: ""
 
