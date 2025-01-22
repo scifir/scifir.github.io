@@ -52,7 +52,7 @@ collections:
     permalink: /guides-by-author/:name
   authors:
 plugins:
-  - jekyll-feed
+#  - jekyll-feed
   - jekyll-sitemap
 defaults:
   - scope:
