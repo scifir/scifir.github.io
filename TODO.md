@@ -22,13 +22,12 @@
 - **TODO:** search if teenagers and even childs of 12 years can work in volunteering remotely
 - **TODO:** search laws related to volunteer work in Chile
 
-## TECHNICAL FEATURES (5)
+## TECHNICAL FEATURES (4)
 
 - **TODO:** add html5 semantics, if there are, for dates, categories, emails, etc
 - **TODO:** add a responsive design for the cellphone
 - **TODO:** find out if \<nav\> should be used for the icons inside \<header\> and inside \<footer\>
 - **TODO:** decide what to do with feed.xml
-- **TODO:** delete the gems that are not being used, and update _config.yml too if needed
 
 ## TECHNICAL FEATURES - FACEBOOK (2)
 
@@ -45,22 +44,6 @@
 - **TODO:** search if the health insurance can work in Chile for foundations too
 - **TODO:** read the law 20500 of Chile
 
-## FUTURE - TECHNICAL FEATURES (4)
-
-- **TODO:** add pagination
-- **TODO:** download of articles and guides as pdf files
-- **TODO:** extension of categories, add all the other normal technologic categories like clothing, electrodomestics, etc
-- **TODO:** possibly use the gem github-pages too
-
-## FUTURE - SCIENCE ACADEMY (1)
-
-- **TODO:** design the science academy (digital,free)
-
-## DEPLOY (2)
-
-- **TODO:** search if there's a website validator online, for all the website and not only for one webpage
-- **TODO:** sitemap should not display the urls of html webpages with the .html extension
-
 ## INAUGURATION (6)
 
 - **TODO:** finish the guide of Linux
@@ -69,3 +52,19 @@
 - **TODO:** finish the webpage of open science
 - **TODO:** finish the webpage of the volunteer program
 - **TODO:** finish the new of the inauguration of the website
+
+## FUTURE - TECHNICAL FEATURES (5)
+
+- **TODO:** add pagination
+- **TODO:** download of articles and guides as pdf files
+- **TODO:** extension of categories, add all the other normal technologic categories like clothing, electrodomestics, etc
+- **TODO:** possibly use the gem github-pages too
+- **TODO:** review file _config.yml with the documentation of jekyll, in detail
+
+## FUTURE - SCIENCE ACADEMY (1)
+
+- **TODO:** design the science academy (digital,free)
+
+## FUTURE - DEPLOY (1)
+
+- **TODO:** search if there's a website validator online, for all the website and not only for one webpage
